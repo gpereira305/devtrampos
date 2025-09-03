@@ -1,7 +1,7 @@
-<?php handle_load_partial('head') ?>
-<?php handle_load_partial('header') ?>
-<?php handle_load_partial('hero') ?>
-<?php handle_load_partial('main-banner') ?>
+<?= handle_load_partial('head') ?>
+<?= handle_load_partial('header') ?>
+<?= handle_load_partial('hero') ?>
+<?= handle_load_partial('main-banner') ?>
 
 <!-- Job Listings -->
 <section>
@@ -169,11 +169,11 @@
         </div>
       </div>
     </div>
-    <a href="listings.html" class="block text-xl text-center">
+    <a href="/job-listings" class="block w-full text-center px-5 py-2.5 shadow-sm rounded border text-base font-medium text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
       <i class="fa fa-arrow-alt-circle-right"></i>
       Show All Jobs
     </a>
 </section>
 
-<?php handle_load_partial('bottom-banner') ?>
-<?php handle_load_partial('footer') ?>
+<?= handle_load_partial('bottom-banner') ?>
+<?= handle_load_partial('footer') ?>
